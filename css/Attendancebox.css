@@ -58,13 +58,25 @@ img{
 
 .topping{
 
-    width: 100vw;
+    
     height: 12vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 2vh;
 
 }
 .topping img{
     height: 12vh;
     width: auto;
 }
+footer{
+    
+    height: 26vh;
+    color: #DADADA;
+    background-color: #292929;
+    line-height: 5vh;
+}
+footer h2{
+    padding-top: 3vh;
+}
+    
