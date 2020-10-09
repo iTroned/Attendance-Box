@@ -35,6 +35,10 @@ body{
 li:hover{
     border-bottom: solid 2px black;
 }
+.pic{
+    display: flex;
+    justify-content: center;
+}
 li{
    
 }
