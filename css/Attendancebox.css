@@ -10,6 +10,7 @@ body{
 nav{
     background: linear-gradient(to right, #424242, #2b2b2b);
     box-shadow: 0px 1px #5c5c5c;
+    color: #DADADA;
 }
 .slogan h2{
     text-align: center;
@@ -23,7 +24,7 @@ nav{
     height: 12vh;
     line-height: 12vh;
     text-align: center;
-    border-right: solid 2px black;
+    border-right: solid 2px #DADADA;
 }
 .links{
     display: inline-block;
@@ -34,15 +35,15 @@ nav{
 }
 .links a{
     text-decoration: none;
-    color: black;
+    color: #DADADA;
     padding-right: 5vw;
     padding-left: 5vw;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     
 }
-.links li:hover{
-    border-bottom: solid 2px black;
+.links a:hover{
+    border-bottom: solid 2px #DADADA;
 }
 .pic{
     display: flex;
@@ -90,5 +91,42 @@ footer{
 }
 footer h2{
     padding-top: 3vh;
+}
+.box3{
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    width: 40vw;
+    height: 20vw;
+    color: #DADADA;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
+.boxi3{
+    padding-left: 2vw;
+}
+.boxi3 li{
+    padding-left: 2vw;
+}
+.box2container{
+    height: 20vw;
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+    margin-bottom: 10vh;
+}
+.box2{
+    background: linear-gradient(to left, #424242, #2b2b2b);
+    width: 40vw;
+    height: 20vw;
+    color: #DADADA;
+    display: flex;
+    align-items: center;
+}
+.boxi2{
+    padding-left: 2vw;
+}
+.boxi2 li{
+    padding-left: 2vw;
 }
     
