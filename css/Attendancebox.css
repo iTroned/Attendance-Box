@@ -119,15 +119,24 @@ footer h2{
 }
 .box1{
     background: linear-gradient(to right, #424242, #2b2b2b);
-    width: 60vw;
-    height: 30vw;
+    width: 80vw;
+    height: 40vw;
     color: #DADADA;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 5vh;
-    margin-left: 20vw;
     border-radius: 5px;
     box-shadow: 5px 5px #535353;
+}
+.box1holder{
+    display: flex;
+    justify-content: center;
+}
+.box1 p{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .box3{
     background: linear-gradient(to right, #424242, #2b2b2b);
